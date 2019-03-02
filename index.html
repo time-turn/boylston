@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang=”en”>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Name of your awesome camera app -->
+    <title>Time Travel</title>
+    <!-- Link to your main style sheet-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135511951-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135511951-1');
+</script>
+
+</head>
+
+<body>
+
+<!--<script>  
+    function changeImage()
+{
+var img = document.getElementById("image");
+img.src="img/AltFuture.png";
+return false;
+}
+
+</script>-->
+	
+	
+      
+      
+        
+    <!-- Makes background dark -->
+        <div id="dimScreen"></div>
+    <!-- Camera -->
+    <main id="camera">
+        
+        <!-- Camera sensor -->
+        <canvas id="camera--sensor"></canvas>
+        <!-- Camera view -->
+        <video id="camera--view" autoplay playsinline></video>
+        <!-- Camera output -->
+        <img src="//:0" alt="" id="camera--output">
+        <!-- Camera trigger -->
+        
+        
+    </main>
+    
+    <div id="overhead" >
+		<div id="video_overlays">
+			<img id="home" src="OldBoylston47.gif" width="100%"</img>	
+   			<button id="camera--trigger" onclick="changeImage();"><b>Time Travel </b><br/>(takes a few tries)</button>	
+    	</div>
+     	<div id="form" >
+			<img id="carrot" src="../kmarie12.github.io/arrowdown.png"></img>
+        	<iframe id="questions" src="https://docs.google.com/forms/d/e/1FAIpQLSfieQifhpDFWWU0Udgx56izUwZcq5o33kEo0meH9aV81fx6dA/viewform?embedded=true"  height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+       </div>
+     
+    </div>
+    
+    
+       <!-- width="640" height="823" -->
+    <!-- Reference to your JavaScript file -->
+    <script src="app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+</body>
+</html>
